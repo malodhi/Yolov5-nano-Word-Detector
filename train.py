@@ -636,3 +636,6 @@ def run(**kwargs):
 if __name__ == "__main__":
     opt = parse_opt()
     main(opt)
+
+
+# python train.py --img 512 --batch 8 --data data/coco128.yaml --weights '' --cfg models/yolov5n.yaml
